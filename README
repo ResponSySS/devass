@@ -1,0 +1,29 @@
+devass.sh 0.5
+    Instantly set up the base structure for a new project.
+    It basically gets files from a template directory, makes a README and runs 
+    needed scripts like `premake`, `git` or `make`.
+
+USAGE
+    ./devass.sh [OPTIONS] -n NAME
+
+OPTIONS
+    -n NAME             specify the NAME of your project (mandatory)
+    -c FILE             specify path to configuration file (default: /home/sylsau/.devassrc)
+    -h, --help          show this help message
+
+CONFIGURATION VARIABLES
+    SRC_DIR=PATH        set path to template directory to PATH (mandatory)
+    PREMAKE={0|1}       run `premake` (default: 0)
+    PREMAKE_TYPE=TYPE   set the premake action to TYPE (default: gmake2)
+    README={0|1}        make a README.md file (default: 0)
+    GIT_INIT={0|1}      run `git init` (default: 0)
+    MAKE={0|1}          run `make` (default: 0)
+
+EXAMPLES
+    $ ./ -c $HOME/.my_devass_rc -n newProj
+
+AUTHOR
+    Written by Sylvain Saubier (<http://SystemicResponse.com>)
+
+REPORTING BUGS
+    Mail at: <feedback\@systemicresponse.com>
