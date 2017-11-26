@@ -63,8 +63,8 @@ fn_help() {
 	cat << EOF
 $PROGRAM_NAME $VERSION
     Instantly set up the base structure for a new project.
-    It basically gets files from a template directory, makes a README and runs 
-    needed scripts like \`premake\`, \`git\` or \`make\`.
+    This *dev ass(istant)* basically gets files from a template directory, makes 
+    a README and runs needed commands like \`premake\`, \`git\` or \`make\`.
 
 USAGE
     ./$PROGRAM_NAME [OPTIONS] -n NAME
