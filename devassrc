@@ -1,6 +1,6 @@
-SRC_DIR="$HOME/Devel/Src/DevAss/Templates/c/"
+SRC_DIR="$HOME/Templates/C/"
 PREMAKE=1
-PREMAKE_TYPE=gmake2
+PREMAKE_TYPE=gnu
 README=1
 GIT_INIT=1
 MAKE=1
