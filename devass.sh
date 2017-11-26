@@ -76,11 +76,11 @@ OPTIONS
 
 CONFIGURATION VARIABLES
     SRC_DIR=PATH        set path to template directory to PATH (mandatory)
-    PREMAKE={0|1}       run \`premake\` (default: 0)
+    PREMAKE={0,1}       run \`premake\` (default: 0)
     PREMAKE_TYPE=TYPE   set the premake action to TYPE (default: gmake2)
-    README={0|1}        make a README.md file (default: 0)
-    GIT_INIT={0|1}      run \`git init\` (default: 0)
-    MAKE={0|1}          run \`make\` (default: 0)
+    README={0,1}        make a README.md file (default: 0)
+    GIT_INIT={0,1}      run \`git init\` (default: 0)
+    MAKE={0,1}          run \`make\` (default: 0)
 
 EXAMPLES
     $ ./$PROGRAM_NAME -c \$HOME/.my_devass_rc -n newProj
