@@ -71,7 +71,7 @@ USAGE
 
 OPTIONS
     -n NAME             specify the NAME of your project (mandatory)
-    -c FILE             specify path to configuration file (default: $CONF_FILE)
+    -c FILE             specify path to configuration file (default: \$HOME/.devassrc)
     -h, --help          show this help message
 
 CONFIGURATION VARIABLES
