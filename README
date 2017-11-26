@@ -4,7 +4,7 @@ devass.sh 0.5
     a README and runs needed commands like `premake`, `git` or `make`.
 
 USAGE
-    ./devass.sh [OPTIONS] -n NAME
+    ./devass.sh [OPTIONS]
 
 OPTIONS
     -n NAME             specify the NAME of your project (mandatory)
@@ -20,7 +20,7 @@ CONFIGURATION VARIABLES
     MAKE={0|1}          run `make` (default: 0)
 
 EXAMPLES
-    $ ./ -c $HOME/.my_devass_rc -n newProj
+    $ ./devass.sh -c $HOME/.my_devass_rc -n newProj
 
 AUTHOR
     Written by Sylvain Saubier (<http://SystemicResponse.com>)

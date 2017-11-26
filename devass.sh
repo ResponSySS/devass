@@ -67,7 +67,7 @@ $PROGRAM_NAME $VERSION
     a README and runs needed commands like \`premake\`, \`git\` or \`make\`.
 
 USAGE
-    ./$PROGRAM_NAME [OPTIONS] -n NAME
+    ./$PROGRAM_NAME [OPTIONS]
 
 OPTIONS
     -n NAME             specify the NAME of your project (mandatory)
@@ -83,7 +83,7 @@ CONFIGURATION VARIABLES
     MAKE={0|1}          run \`make\` (default: 0)
 
 EXAMPLES
-    $ ./$PROJ_NAME -c \$HOME/.my_devass_rc -n newProj
+    $ ./$PROGRAM_NAME -c \$HOME/.my_devass_rc -n newProj
 
 AUTHOR
     Written by Sylvain Saubier (<http://SystemicResponse.com>)
