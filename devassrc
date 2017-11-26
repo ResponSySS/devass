@@ -1,0 +1,6 @@
+SRC_DIR="$HOME/Devel/Src/DevAss/Templates/c/"
+PREMAKE=1
+PREMAKE_TYPE=gmake2
+README=1
+GIT_INIT=1
+MAKE=1
