@@ -1,0 +1,9 @@
+TODO
+	implement --new-tmpl, --del-tmpl to create and remove templates
+	make a new template format in tar archive
+		archive.tar
+			dirs.txt # list all directories
+			that/
+				fucking/
+					file.tiff # special files are included as-is
+			files.txt # text files are all concatenated in one text file

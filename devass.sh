@@ -15,7 +15,8 @@
 #      REVISION:  ---
 #===============================================================================
 
-set -o nounset -o errexit                   # Treat unset variables as an error
+[[ $DEBUG ]] && set -o nounset -o errexit -o pipefail
+set -o errexit -o pipefail
 
 PROGRAM_NAME="${0##*/}"
 VERSION=0.5
