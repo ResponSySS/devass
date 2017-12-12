@@ -1,4 +1,8 @@
 TODO
+	new usage:
+		$0 -t TEMPL_NAME PROJECT_NAME
+			TEMPL_NAME: name of template to use
+			PROJECT_NAME: name of your new project
 	implement --new-tmpl, --del-tmpl to create and remove templates
 	make a new template format in tar archive
 		archive.tar
